@@ -1,0 +1,10 @@
+com\learning\request\UserRequest.class
+com\learning\response\BaseResponse.class
+com\learning\config\Application.class
+com\learning\entity\NewsFeed.class
+com\learning\entity\User.class
+com\learning\controller\AppController.class
+com\learning\service\UserService.class
+com\learning\repository\UserRepository.class
+com\learning\entity\News.class
+com\learning\entity\Category.class

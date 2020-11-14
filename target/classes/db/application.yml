@@ -1,0 +1,11 @@
+flyway:
+  enabled: true
+  locations: jdbc:mysql://localhost:5005/duedots
+  schemas: [aps]
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:5005/duedots
+    password: root
+    username: root
+

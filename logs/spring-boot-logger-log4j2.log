@@ -1,0 +1,1 @@
+2020-11-14 07:02:36,071 INFO o.s.c.s.AbstractApplicationContext [Thread-3] Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@65d89f39: startup date [Fri Nov 13 21:58:54 IST 2020]; root of context hierarchy
