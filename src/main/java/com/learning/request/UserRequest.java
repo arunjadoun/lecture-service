@@ -29,14 +29,6 @@ public class UserRequest {
     public UserRequest() {
     }
 
-    public UserRequest(String name, String gender, String email, String mobile, String dob) {
-        this.name = name;
-        this.gender = gender;
-        this.email = email;
-        this.mobile = mobile;
-        this.dob = dob;
-    }
-
     public String getName() {
         return name;
     }
@@ -75,5 +67,15 @@ public class UserRequest {
 
     public void setDob(String dob) {
         this.dob = dob;
+    }
+
+    public UserRequest(String name, String gender, String email, String mobile, String dob, String username, String password) {
+        this.name = name;
+        this.gender = gender;
+        this.email = email;
+        this.mobile = mobile;
+        this.dob = dob;
+        this.username = username;
+        this.password = password;
     }
 }
