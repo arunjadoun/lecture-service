@@ -27,7 +27,7 @@ public class AppController {
     }
 
 
-    @CrossOrigin(origins = "http://localhost:3000")
+    @CrossOrigin(origins = "http://15.206.68.72:3000")
     @PostMapping("/login")
     public ResponseEntity<String> login(@RequestBody String link)  {
         logger.info("Request received for adding news");
