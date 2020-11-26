@@ -34,7 +34,7 @@ public class AppController {
     }
 
 
-    @CrossOrigin(origins = "https://65.0.190.55:3000")
+    @CrossOrigin(origins = "http://65.0.190.55:3000")
     @PostMapping("/login")
     public ResponseEntity<String> login(@RequestBody LoginRequest loginRequest)  {
         logger.info("Request received for adding news");
@@ -45,7 +45,7 @@ public class AppController {
 //        return new ResponseEntity<String>(HttpStatus.OK);
     }
 
-    @CrossOrigin(origins = "https://65.0.190.55:3000")
+    @CrossOrigin(origins = "http://65.0.190.55:3000")
     @PostMapping("/register")
     public ResponseEntity<String> register(@RequestBody UserRequest user)  {
         logger.info("Request received for adding news");
